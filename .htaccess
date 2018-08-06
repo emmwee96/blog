@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase    /blog/
+RewriteCond $1 !^(index\.php|images|files|css|js|fonts|robots\.txt)
+RewriteRule ^(.*)$ /blog/index.php/$1 [L]
