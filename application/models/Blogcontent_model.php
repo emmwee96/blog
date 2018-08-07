@@ -27,12 +27,12 @@ class Blogcontent_model extends CI_Model{
             $this->db->from('post');
             $this->db->where('user_id', $user_id); 
             $query = $this->db->get();
-
+ 
             if ($query->num_rows() > 0)
             {
             return $query; // just return $query
             }
-        }
+     }
 
         function getallpost(){
             $this->db->select('*');
