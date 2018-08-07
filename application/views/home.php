@@ -94,7 +94,7 @@
             </div>
             <div class="card-footer text-muted">
               Posted on January 1, 2017 by
-              <a href="#" value="<?php echo $post->user_name; ?>"></a>
+              <!-- <a href="#" value="<?php echo $post->user_name; ?>"></a> -->
             </div>
           </div>
 
